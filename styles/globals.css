@@ -1,16 +1,20 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+  --fontOne: "Alata", sans-serif;
+  --fontTwo: "Josefin Sans", sans-serif;
+  /* desktop background images */
+  --desktop-header-image: url("/images/desktop/image-hero.jpg");
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: var(--fontOne);
 }
