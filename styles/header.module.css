@@ -5,6 +5,7 @@
   height: 500px;
   color: #fff;
   padding-top: 30px;
+  position: relative;
 }
 .container {
   width: 80%;
@@ -39,13 +40,36 @@
 .nav ul li a:hover::after {
   width: 100%;
 }
+.nav .icon {
+  background-image: var(--menu-icon-hamburger);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  cursor: pointer;
+}
 .headerMessage {
   display: flex;
   width: 50%;
   margin-top: 100px;
   border: 1px solid #fff;
-  font-size: 68px;
+  font-size: 5vw;
   font-family: var(--fontTwo);
   text-transform: uppercase;
   padding: 20px;
 }
+
+/* media style start */
+@media screen and (max-width: 660px) {
+  .nav ul {
+    display: none;
+  }
+  .nav .icon {
+    display: block;
+  }
+  .headerMessage{
+    width: 100%;
+  }
+}
+/* media style end */
