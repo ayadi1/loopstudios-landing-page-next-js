@@ -29,7 +29,7 @@
 }
 .infos h2 {
   font-family: var(--fontTwo);
-  font-size: 60px;
+  font-size: 5vw;
   text-transform: uppercase;
   margin-bottom: 21px;
 }
@@ -38,16 +38,27 @@
 }
 /* InfoSection section style start */
 /* media style start */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 890px) {
+  /* InfoSection style start */
   .InfoSection {
+    flex-direction: column;
   }
   .bgImage {
+    width: 100%;
+    height: 56vw;
   }
   .infos {
+    width: 100%;
+    position: initial;
   }
   .infos h2 {
+    text-align: center;
   }
   .infos p {
+    text-align: center;
   }
+  /* InfoSection style end */
+}
+@media screen and (max-width: 500px) {
 }
 /* media style end */
