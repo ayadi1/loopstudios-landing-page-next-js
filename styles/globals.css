@@ -31,6 +31,11 @@
   --mobile-grid-image-night-arcade: url("/images/mobile/image-night-arcade.jpg");
   --mobile-grid-image-pocket-borealis: url("/images/mobile/image-pocket-borealis.jpg");
   --mobile-grid-image-soccer-team: url("/images/desktop/image-soccer-team.jpg");
+  /* icons */
+  --facebook : url("/images/icon-facebook.svg");
+  --twitter : url("/images/icon-twitter.svg");
+  --pinterest : url("/images/icon-pinterest.svg");
+  --instagram : url("/images/icon-instagram.svg");
 }
 
 * {
