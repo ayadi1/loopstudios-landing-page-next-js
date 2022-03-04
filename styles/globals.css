@@ -13,6 +13,24 @@
   --mobile-infoSection-bg-image: url("/images/mobile/image-interactive.jpg");
   --menu-icon-hamburger: url("/images/icon-hamburger.svg");
   --menu-icon-close: url("/images/icon-close.svg");
+  /* grid image desktop */
+  --desktop-grid-image-curiosity: url("/images/desktop/image-curiosity.jpg");
+  --desktop-grid-image-deep-earth: url("/images/desktop/image-deep-earth.jpg");
+  --desktop-grid-image-fisheye: url("/images/desktop/image-fisheye.jpg");
+  --desktop-grid-image-from-above: url("/images/desktop/image-from-above.jpg");
+  --desktop-grid-image-grid: url("/images/desktop/image-grid.jpg");
+  --desktop-grid-image-night-arcade: url("/images/desktop/image-night-arcade.jpg");
+  --desktop-grid-image-pocket-borealis: url("/images/desktop/image-pocket-borealis.jpg");
+  --desktop-grid-image-soccer-team: url("/images/desktop/image-soccer-team.jpg");
+  /* grid mobile image */
+  --mobile-grid-image-curiosity: url("/images/mobile/image-curiosity.jpg");
+  --mobile-grid-image-deep-earth: url("/images/mobile/image-deep-earth.jpg");
+  --mobile-grid-image-fisheye: url("/images/mobile/image-fisheye.jpg");
+  --mobile-grid-image-from-above: url("/images/mobile/image-from-above.jpg");
+  --mobile-grid-image-grid: url("/images/mobile/image-grid.jpg");
+  --mobile-grid-image-night-arcade: url("/images/mobile/image-night-arcade.jpg");
+  --mobile-grid-image-pocket-borealis: url("/images/mobile/image-pocket-borealis.jpg");
+  --mobile-grid-image-soccer-team: url("/images/desktop/image-soccer-team.jpg");
 }
 
 * {

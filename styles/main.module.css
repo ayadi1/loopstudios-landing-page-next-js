@@ -36,7 +36,136 @@
 .infos p {
   color: var(--Dark-Gray);
 }
-/* InfoSection section style start */
+/* InfoSection section style end */
+/* CreationsList section style start */
+/* 
+ 
+ 
+ 
+ 
+ 
+- 
+   
+   
+
+    mobile
+
+    --mobile-grid-image-deep-earth 
+    --mobile-grid-image-night-arcade 
+    --mobile-grid-image-soccer-team 
+    --mobile-grid-image-grid 
+    --mobile-grid-image-from-above 
+    --mobile-grid-image-pocket-borealis 
+  --mobile-grid-image-curiosity 
+  --mobile-grid-image-fisheye 
+*/
+.CreationsList {
+  margin-top: 250px;
+}
+.CreationsList .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.CreationsList .head h3 {
+  font-family: var(--fontTwo);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.CreationsList .head button {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  font-family: var(--fontTwo);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.CreationsList .head button:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+.CreationsList .grid {
+  display: grid;
+  gap: 25px;
+  grid-template: repeat(2, 500px) / repeat(4, 1fr);
+}
+.CreationsList .grid .gridItem1,
+.CreationsList .grid .gridItem2,
+.CreationsList .grid .gridItem3,
+.CreationsList .grid .gridItem4,
+.CreationsList .grid .gridItem5,
+.CreationsList .grid .gridItem6,
+.CreationsList .grid .gridItem7,
+.CreationsList .grid .gridItem8 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-color: antiquewhite;
+  padding: 25px;
+  align-items: flex-end;
+}
+.CreationsList .grid .gridItem1:hover,
+.CreationsList .grid .gridItem2:hover,
+.CreationsList .grid .gridItem3:hover,
+.CreationsList .grid .gridItem4:hover,
+.CreationsList .grid .gridItem5:hover,
+.CreationsList .grid .gridItem6:hover,
+.CreationsList .grid .gridItem7:hover,
+.CreationsList .grid .gridItem8:hover {
+  filter: sepia(73%) opacity(66%);
+  -webkit-filter: sepia(73%) opacity(66%);
+  -moz-filter: sepia(73%) opacity(66%);
+}
+.CreationsList .grid .gridItem1:hover p,
+.CreationsList .grid .gridItem2:hover p,
+.CreationsList .grid .gridItem3:hover p,
+.CreationsList .grid .gridItem4:hover p,
+.CreationsList .grid .gridItem5:hover p,
+.CreationsList .grid .gridItem6:hover p,
+.CreationsList .grid .gridItem7:hover p,
+.CreationsList .grid .gridItem8:hover p {
+  color: #000 !important;
+}
+
+.CreationsList .grid .gridItem1 {
+  background-image: var(--desktop-grid-image-deep-earth);
+}
+.CreationsList .grid .gridItem2 {
+  background-image: var(--desktop-grid-image-night-arcade);
+}
+.CreationsList .grid .gridItem3 {
+  background-image: var(--desktop-grid-image-soccer-team);
+}
+.CreationsList .grid .gridItem4 {
+  background-image: var(--desktop-grid-image-grid);
+}
+.CreationsList .grid .gridItem5 {
+  background-image: var(--desktop-grid-image-from-above);
+}
+.CreationsList .grid .gridItem6 {
+  background-image: var(--desktop-grid-image-pocket-borealis);
+}
+.CreationsList .grid .gridItem7 {
+  background-image: var(--desktop-grid-image-curiosity);
+}
+.CreationsList .grid .gridItem8 {
+  background-image: var(--desktop-grid-image-fisheye);
+}
+
+.CreationsList .grid p {
+  font-family: var(--fontTwo);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+/* CreationsList section style end */
+
 /* media style start */
 @media screen and (max-width: 890px) {
   /* InfoSection style start */
