@@ -118,9 +118,7 @@
 .CreationsList .grid .gridItem6:hover,
 .CreationsList .grid .gridItem7:hover,
 .CreationsList .grid .gridItem8:hover {
-  filter: sepia(73%) opacity(66%);
-  -webkit-filter: sepia(73%) opacity(66%);
-  -moz-filter: sepia(73%) opacity(66%);
+  filter: grayscale(1);
 }
 .CreationsList .grid .gridItem1:hover p,
 .CreationsList .grid .gridItem2:hover p,
@@ -162,9 +160,17 @@
   font-family: var(--fontTwo);
   color: #fff;
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 18px;
+  font-weight: bold;
 }
 /* CreationsList section style end */
+@media screen and (max-width: 980px) {
+  /* CreationsList style start */
+  .CreationsList .grid {
+    grid-template: repeat(4, 500px) / repeat(2, 1fr);
+  }
+  /* CreationsList style ned */
+}
 
 /* media style start */
 @media screen and (max-width: 890px) {
@@ -187,6 +193,44 @@
     text-align: center;
   }
   /* InfoSection style end */
+  /* CreationsList style start */
+  .CreationsList{
+    margin-top: 100px;
+  }
+  .CreationsList .grid {
+    grid-template: repeat(8, 23vw) / repeat(1, 1fr);
+  }
+  .CreationsList .grid .gridItem1 {
+    background-image: var(--mobile-grid-image-deep-earth);
+  }
+  .CreationsList .grid .gridItem2 {
+    background-image: var(--mobile-grid-image-night-arcade);
+  }
+  .CreationsList .grid .gridItem3 {
+    background-image: var(--mobile-grid-image-soccer-team);
+  }
+  .CreationsList .grid .gridItem4 {
+    background-image: var(--mobile-grid-image-grid);
+  }
+  .CreationsList .grid .gridItem5 {
+    background-image: var(--mobile-grid-image-from-above);
+  }
+  .CreationsList .grid .gridItem6 {
+    background-image: var(--mobile-grid-image-pocket-borealis);
+  }
+  .CreationsList .grid .gridItem7 {
+    background-image: var(--mobile-grid-image-curiosity);
+  }
+  .CreationsList .grid .gridItem8 {
+    background-image: var(--mobile-grid-image-fisheye);
+  }
+  .CreationsList .head h3 {
+    text-align: center;
+  }
+  .CreationsList .head button {
+    display: none;
+  }
+  /* CreationsList style end */
 }
 @media screen and (max-width: 500px) {
 }
